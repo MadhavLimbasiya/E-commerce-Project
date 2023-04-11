@@ -20,8 +20,8 @@ function App() {
 
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/add" element={<AddProduct />} />
-          <Route path="/update" element={<UpdateProduct />} />
+          {/* <Route path="/add" element={<AddProduct />} />
+          <Route path="/update" element={<UpdateProduct />} /> */}
 
         </Routes>
       </BrowserRouter>
