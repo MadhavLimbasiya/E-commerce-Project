@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import {Button} from "react-bootstrap";
 
 function Login()
 {
@@ -16,6 +16,11 @@ function Login()
                     <br />
                     <label name="mobile" id="mobile">Mobile NO :</label>&nbsp;
                     <input name="mobile" id="mobile" type="number" />
+                    <br />
+                    <br />
+                    
+                    <Button type="submit" class="btn-submit" id="submit" >SUBMIT</Button>
+                    
                 </container>
 
 
